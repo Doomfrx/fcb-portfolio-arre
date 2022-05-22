@@ -1,0 +1,64 @@
+*{
+	font-family: "Roboto", sans-serif;
+
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile{
+	height: 250px;
+	width: 250px;
+}
+
+#landing{
+	/*viewport height- measured percentage of the 
+	height of the device you are viewing on*/
+	height: 80vh;
+
+	/*arranges elements inside the parent element 
+	will allow us to layout our elements inside our landing section */
+	display: flex;
+
+	/*centering elements horizontally*/
+	flex-direction: column;
+
+	/*centering elements horizontally if flex direction is in column*/
+	align-items: center;
+
+	/*centering elements horizontally if flex direction is in*/
+	justify-content: center;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	border-radius: 10px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	/*Hex*/
+	color: #007bff;
+}
+
+.tools {
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	padding: 35px;
+	height: 200px;
+	width: 75%;
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
